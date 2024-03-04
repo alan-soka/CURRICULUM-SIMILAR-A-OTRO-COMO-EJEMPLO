@@ -1,38 +1,50 @@
-body{
-background-color: rgb(223, 239, 241);
-text-align: center; 
+body {
+    background-color: rgb(223, 239, 241);
+    text-align: center;
 
 }
 
-h1{
+.titulo {
+    margin: 0 auto;
+}
+
+h1 {
     font-size: 60px;
     letter-spacing: 10px;
 }
 
-.xd {
+h2 {
     color: #007074;
     font-size: 27px;
 }
 
-.enlaces:hover{
+ul {
+    color: #000000;
+    font-size: 17px;
+}
+
+/* animacion para los links que al pasar el raton me aplique un estilo */
+
+.enlaces:hover {
     color: #006464;
     font-size: 30px;
 }
 
-img{
+img {
     border-radius: 50%;
     width: 100%;
+
 }
 
-.caja-foto{
-display: inline-block;
-width: 20%;
-vertical-align: middle;
+.foto {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
 }
 
-.caja-datos {
+.datos {
     display: inline-block;
     width: 20%;
     text-align: left;
     vertical-align: middle;
-  }
+}
